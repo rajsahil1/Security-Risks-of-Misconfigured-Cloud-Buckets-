@@ -1,0 +1,50 @@
+
+    <html>
+    <head>
+        <title>Cloud Bucket Security Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            table { border-collapse: collapse; width: 100%; }
+            th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+            th { background-color: #f4f4f4; }
+            .HIGH { background-color: #f44336; color: white; }
+            .MEDIUM { background-color: #ff9800; color: white; }
+            .LOW { background-color: #4caf50; color: white; }
+        </style>
+    </head>
+    <body>
+        <h2>Cloud Bucket Security Report</h2>
+        <p>Generated on: 2025-09-08 19:59:39</p>
+        <table>
+            <tr>
+                <th>Bucket URL</th>
+                <th>Readable</th>
+                <th>Writable</th>
+                <th>Severity</th>
+            </tr>
+    
+        <tr>
+            <td>https://my-open-bucket.s3.amazonaws.com/</td>
+            <td>✘</td>
+            <td>✘</td>
+            <td class="LOW">LOW</td>
+        </tr>
+        
+        <tr>
+            <td>https://public-bucket.storage.googleapis.com/</td>
+            <td>✔</td>
+            <td>✘</td>
+            <td class="MEDIUM">MEDIUM</td>
+        </tr>
+        
+        <tr>
+            <td>https://example.blob.core.windows.net/container</td>
+            <td>✘</td>
+            <td>✘</td>
+            <td class="LOW">LOW</td>
+        </tr>
+        
+        </table>
+    </body>
+    </html>
+    

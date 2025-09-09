@@ -1,0 +1,3 @@
+https://my-open-bucket.s3.amazonaws.com/
+https://public-bucket.storage.googleapis.com/
+https://example.blob.core.windows.net/container
